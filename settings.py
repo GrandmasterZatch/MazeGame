@@ -1,0 +1,28 @@
+# Storage center for colors, tile size, EVERYTHING
+
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+DARKGREY = (40, 40, 40)
+LIGHTGREY = (100,100,100)
+GREEN = (0, 255, 0)
+RED = (255, 0, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+TAN = (210, 180, 140)
+BROWN = (139, 69, 19)
+
+# 16:SOUTH, 17:NORTH, 18:EAST, 19:WEST, 25:REWIND INDICATOR
+leds = [16, 17, 18, 19, 12]
+# REWIND BUTTON
+button = 21
+
+WIDTH = 384 # 16 * 64 or 32*32 or 64*16
+HEIGHT = 384 # 16*48 or 32 * 24 or 64 * 12
+FPS = 60
+TITLE = "Maze game demo"
+BGCOLOR = TAN
+
+TILESIZE = 32
+GRIDWIDTH = WIDTH / TILESIZE
+GRIDHEIGHT = HEIGHT / TILESIZE
+
